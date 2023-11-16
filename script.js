@@ -197,3 +197,94 @@ document.querySelectorAll(".ans").forEach(function(e,index){
     }
   })
 })
+var glitch = gsap.timeline({
+  repeat:-1,
+})
+
+glitch
+.from(".i1",{
+  opacity:0,
+  rotate:-10,
+  transform:"rotateY(30deg)",
+  transform:"rotateX(10deg)"
+})
+.from(".glitch1",{
+  opacity:0,
+  
+})
+.to(".i1",{
+  opacity:0,
+})
+.to(".glitch1",{
+  opacity:0,
+  
+})
+.from(".i2",{
+  opacity:0,
+  rotate:-10,
+  transform:"rotateY(30deg)",
+  transform:"rotateX(10deg)"
+})
+.from(".glitch2",{
+  opacity:0,
+  
+})
+.to(".i2",{
+  opacity:0,
+})
+.to(".glitch2",{
+  opacity:0,
+  
+})
+.from(".i3",{
+  opacity:0,
+  rotate:-10,
+  transform:"rotateY(30deg)",
+  transform:"rotateX(10deg)"
+})
+.from(".glitch3",{
+  opacity:0,
+  
+})
+.to(".i3",{
+  opacity:0,
+})
+.to(".glitch3",{
+  opacity:0,
+  
+})
+.from(".i4",{
+  opacity:0,
+  rotate:-10,
+  transform:"rotateY(30deg)",
+  transform:"rotateX(10deg)"
+})
+.from(".glitch4",{
+  opacity:0,
+  
+})
+.to(".i4",{
+  opacity:0,
+})
+.to(".glitch4",{
+  opacity:0,
+  
+})
+.from(".i5",{
+  opacity:0,
+  rotate:-10,
+  transform:"rotateY(30deg)",
+  transform:"rotateX(10deg)"
+})
+.from(".glitch5",{
+  opacity:0,
+  
+})
+.to(".i5",{
+  opacity:0,
+})
+.to(".glitch5",{
+  opacity:0,
+  
+})
+
